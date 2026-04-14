@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&display=swap');
+
+:root {
+  --bg: #f7f8fb;
+  --surface: #ffffff;
+  --surface-strong: #f1f5f9;
+  --text: #1f2937;
+  --muted: #6b7280;
+  --muted-strong: #475569;
+  --border: #e5e7eb;
+  --border-strong: #d4d4d8;
+  --primary: #0f766e;
+  --primary-strong: #0d5f59;
+  --shadow-soft: 0 14px 30px rgba(17, 24, 39, 0.08);
+  --sans: 'Manrope', 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --mono: 'SFMono-Regular', Menlo, Monaco, Consolas, 'Liberation Mono', monospace;
+
+  font-family: var(--sans);
+  color: var(--text);
+  background-color: var(--bg);
+  line-height: 1.5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+}
+
+#root {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+h1 {
+  font-size: 32px;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+p {
+  margin: 0;
+  color: var(--text);
+}
+
+code {
+  font-family: var(--mono);
+  padding: 4px 6px;
+  background: var(--surface-strong);
+  border-radius: 8px;
+}
